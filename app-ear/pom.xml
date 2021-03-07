@@ -23,6 +23,12 @@
 			<version>1.0.0</version>
 			<type>war</type>
 		</dependency>
+		<dependency>
+			<groupId>com.jwt.spring</groupId>
+			<artifactId>employee-management</artifactId>
+			<version>1.0.0</version>
+			<type>war</type>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -49,6 +55,12 @@
 							<artifactId>app-webapp</artifactId>
 							<bundleFileName>app-webapp.war</bundleFileName>
 							<contextRoot>/app</contextRoot>
+						</webModule>
+						<webModule>
+							<groupId>com.jwt.spring</groupId>
+							<artifactId>employee-management</artifactId>
+							<bundleFileName>employee-management.war</bundleFileName>
+							<contextRoot>/emp</contextRoot>
 						</webModule>
 					</modules>
 					<generateApplicationXml>true</generateApplicationXml>

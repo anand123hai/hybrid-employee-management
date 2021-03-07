@@ -10,5 +10,6 @@
   <modules>
     <module>app-ear</module>
     <module>app-webapp</module>
+    <module>employee-management</module>
   </modules>
 </project>
